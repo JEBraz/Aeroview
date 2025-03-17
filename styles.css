@@ -61,7 +61,40 @@ img {
 }
 
 main {
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza na tela */
     padding: 20px;
+}
+
+h1, .descricao {
+    text-align: center; /* Mantém o título principal e descrição centralizados */
+}
+
+.descricao {
+    margin-bottom: 40px; /* Adiciona espaço antes do primeiro produto */
+}
+
+.produto {
+    margin-bottom: 40px; /* Espaçamento entre os segmentos */
+}
+
+.produto h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: left; /* Alinha os títulos dos produtos à esquerda */
+}
+
+.produto p {
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.produto img {
+    width: 100%; /* Ajusta a largura da imagem ao container */
+    max-width: 600px; /* Define um tamanho máximo */
+    display: block;
+    margin-top: 10px;
 }
 
 .social-links {
