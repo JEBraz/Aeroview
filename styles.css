@@ -97,6 +97,16 @@ h1, .descricao {
     margin-top: 10px;
 }
 
+.imagens-produto {
+    display: flex;
+    gap: 10px; /* Espaço estreito entre as imagens */
+    max-width: 600px; /* Garante que as imagens não ultrapassem a largura do texto */
+}
+
+.imagens-produto img {
+    width: 50%; /* Cada imagem ocupa metade do container */
+}
+
 .social-links {
     display: flex;
     justify-content: center; /* Centraliza os ícones */
